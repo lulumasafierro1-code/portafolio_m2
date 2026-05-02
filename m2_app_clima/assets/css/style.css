@@ -1,0 +1,119 @@
+:root {
+  --azul-marino: #001f3f;
+}
+
+body {
+  background-color: var(--azul-marino);
+}
+
+/* Header */
+#top {
+  padding: 8px;
+}
+
+/* Título blanco y centrado */
+.titulo {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Estilo de imágenes */
+.icono {
+  border-radius: 15px;           /* bordes redondeados */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);  /* sombra */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto (hover) */
+.icono:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar azul marino */
+.navbar-custom {
+  background-color: #001f3f;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Título */
+.titulo-nav {
+  color: white;
+  font-weight: bold;
+}
+
+/* Links */
+.link-nav {
+  color: white;
+  transition: 0.3s;
+}
+
+/* Hover */
+.link-nav:hover {
+  color: #a8d0ff;
+}
+
+/* Botón hamburguesa con sombra. No conseguí poner las líneas de la hamburguesa en blanco */
+.sombra {
+  box-shadow: 0 2px 6px rgba(238, 234, 234, 0.5);
+}
+
+/* Dropdown */
+.dropdown-custom {
+  background-color: #0a2540;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Items dropdown */
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #1b3b5a;
+  color: white;
+}
+
+/* Navbar azul marino */
+.navbar-custom {
+  background-color: #001f3f;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Texto blanco */
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: white !important;
+}
+
+/* Botones con sombra */
+.navbar-custom .nav-link {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+/* Hover bonito */
+.navbar-custom .nav-link:hover {
+  background-color: rgba(255,255,255,0.1);
+  transform: translateY(-2px);
+}
+
+/* Botón contacto*/
+.contacto-btn {
+  background-color: rgba(255,255,255,0.15);
+  font-weight: bold;
+}
+
+.img-carrusel {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+
+.img-carrusel:hover {
+  transform: scale(1.05);
+}
