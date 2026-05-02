@@ -1,9 +1,9 @@
 // Solo para verificar carga
 console.log("Navbar funcionando correctamente");
 
-const carousel = document.querySelector('#carouselClima');
-
-new bootstrap.Carousel(carousel, {
-  interval: 3000,  // cambia cada 3 segundos
-  pause: "hover"
+// Autoplay Carrousel
+const myCarousel = document.querySelector('#carouselRegiones');
+const carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 4000,
+  wrap: true
 });

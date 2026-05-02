@@ -108,12 +108,29 @@ body {
   font-weight: bold;
 }
 
-.img-carrusel {
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  transition: transform 0.3s;
+/* Hero Carrusel Tamaño uniforme */
+.card-region {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
-.img-carrusel:hover {
-  transform: scale(1.05);
+.card-region img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; /* clave para uniformidad */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card-region p {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Mejora visual del carrusel */
+.carousel-indicators {
+  bottom: -40px;
 }
