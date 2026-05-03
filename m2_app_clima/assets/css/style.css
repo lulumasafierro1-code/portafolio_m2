@@ -34,6 +34,7 @@ body {
 
 /* Navbar azul marino */
 .navbar-custom {
+  color: white;
   background-color: #001f3f;
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
@@ -57,7 +58,8 @@ body {
 
 /* Botón hamburguesa con sombra. No conseguí poner las líneas de la hamburguesa en blanco */
 .sombra {
-  box-shadow: 0 2px 6px rgba(238, 234, 234, 0.5);
+  color: white;
+  box-shadow: 0 2px 6px rgb(19, 18, 18);
 }
 
 /* Dropdown */
@@ -86,7 +88,7 @@ body {
 /* Texto blanco */
 .navbar-custom .nav-link,
 .navbar-custom .navbar-brand {
-  color: white !important;
+  color: rgba(255, 255, 255, 0.986);
 }
 
 /* Botones con sombra */
@@ -123,7 +125,7 @@ body {
   width: 100%;
   height: 150px;
   object-fit: cover; /* clave para uniformidad */
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
 
@@ -159,27 +161,42 @@ body {
 /* Nombre región */
 .region-card span {
   display: block;
+  padding: 5px;
   margin-top: 5px;
   font-size: 13px;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.89);
   
 }
 
-/* Mapa Chile */
+/* Columna 3 (mapa de Chile) */
+.mapa-container {
+  display: flex;
+  justify-content: center;  /* centro horizontal */
+  align-items: center;      /* centro vertical */
+}
+
+h2 {
+  color: white;
+  text-align: center;
+
+}
+
+/*No consigo que se centre en su columna. Forcé con Margin Top*/
 .mapa-chile {
   width: 100%;
   max-height: 999px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 70px;
   border-radius: 10px;
 }
 
 aside {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 20px;
   margin-left: 20px;
   padding: 20px;       /* espacio interno */
@@ -188,11 +205,7 @@ aside {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.89);
  }
 
- aside h5 {
-  text-align: center;
-}
-
-/* Footer */
+ /* Footer */
 .footer {
   background-color: #001f3f;
   color: white;
@@ -231,4 +244,56 @@ aside {
 .nombre {
   font-size: 14px;
   margin-top: 10px;
+}
+
+body {
+  background-color: #001f3f;
+  color: white;
+}
+
+/* Imagen región */
+.region-img {
+  width: 100%;
+  max-height: 600px;   
+  object-fit: contain; /* muestra toda la imagen */
+  display: block;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Cards */
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Clima */
+.clima-card {
+  min-height: 120px;
+  transition: transform 0.3s;
+}
+
+.clima-card:hover {
+  transform: scale(1.05);
+}
+
+/* Galería */
+.galeria {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Animaciones clima */
+.lluvia {
+  animation: lluvia 1s infinite linear;
+}
+
+@keyframes lluvia {
+  0% {opacity: 0.5;}
+  50% {opacity: 1;}
+  100% {opacity: 0.5;}
 }
