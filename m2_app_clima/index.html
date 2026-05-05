@@ -1,438 +1,467 @@
 <!doctype html>
 <html lang="es">
-
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>El Tiempo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    
-    <body>
-    
-        <header id="top" class="container">
-        <div class="row align-items-center text-center">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-            <!-- Columna 1 -->
-            <div class="col-4 col-md-2">
-                <img src="assets/img/icon_gif/icono1.gif" id="icono1" class="img-fluid icono">
-            </div>
-
-            <!-- Columna 2 -->
-            <div class="col-4 col-md-8">
-                <h1 class="titulo">The Wheather Channel</h1>
-            </div>
-
-            <!-- Columna 3 -->
-            <div class="col-4 col-md-2">
-                <img src="assets/img/icon_gif/icono2.gif" id="icono2" class="img-fluid icono">
-            </div>
+  <body>
+    <header id="top" class="container">
+      <div class="row align-items-center text-center">
+        <!-- Columna 1 -->
+        <div class="col-4 col-md-2">
+          <img
+            src="assets/img/icon_gif/icono1.gif"
+            id="icono1"
+            class="img-fluid icono"
+          />
         </div>
-        </header>
 
-        <nav class="navbar navbar-expand-lg navbar-custom">
-        <div class="container-fluid">
-
-            <!-- Título con un ícono-->
-            <a class="navbar-brand text-white" href="#">El Tiempo 🌤️</a>
-
-            <!-- Botón hamburguesa -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Contenido -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-
-                <!-- IZQUIERDA -->
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="Index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://es.wikipedia.org/wiki/Bastet">Nosotros</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Regiones</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="regiones/01.html">Arica y Parinacota</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/cJCH67II8J4">Tarapacá</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Antofagasta</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/FPnTVrv5X8w">Atacama</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Coquimbo</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Valparaíso</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Santiago</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Libertador General Bernardo O'Higgins</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Maule</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Ñuble</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Biobío</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">La Araucanía</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Los Ríos</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Los Lagos</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Aysén del General Carlos Ibáñez del Campo</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://www.youtube.com/shorts/Pvk5qOUkUUo">Magallanes y de la Antártica Chilena</a>
-                            </li>
-                         </ul>
-                    </li>
-                </ul>
-
-                <!-- DERECHA -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link contacto-btn" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-
-            </div>
+        <!-- Columna 2 -->
+        <div class="col-4 col-md-8">
+          <h1 class="titulo">The Wheather Channel</h1>
         </div>
-        </nav>
 
-        <section>
-        <div class="container my-5">
-
-            <div id="carouselRegiones" class="carousel slide" data-bs-ride="carousel">
-
-                <!-- Indicadores (botones abajo) -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselRegiones" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#carouselRegiones" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carouselRegiones" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#carouselRegiones" data-bs-slide-to="3"></button>
-                </div>
-
-                <div class="carousel-inner">
-
-                    <!-- SLIDE 1 -->
-                    <div class="carousel-item active">
-                        <div class="row">
-
-                            <div class="col-md-3">
-                                <a href="arica.html" class="card-region">
-                                    <img src="assets/img/regiones/01.jpg" class="img-fluid">
-                                    <p>Arica y Parinacota</p>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3">
-                                <a href="tarapaca.html" class="card-region">
-                                    <img src="assets/img/regiones/02.jpg" class="img-fluid">
-                                    <p>Tarapacá</p>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3">
-                                <a href="antofagasta.html" class="card-region">
-                                    <img src="assets/img/regiones/03.jpg" class="img-fluid">
-                                    <p>Antofagasta</p>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3">
-                                <a href="atacama.html" class="card-region">
-                                    <img src="assets/img/regiones/04.jpg" class="img-fluid">
-                                    <p>Atacama</p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- SLIDE 2 -->
-                    <div class="carousel-item">
-                        <div class="row">
-
-                            <div class="col-md-3">
-                                <a href="#" class="card-region">
-                                    <img src="assets/img/regiones/05.jpg" class="img-fluid">
-                                    <p>Coquimbo</p>
-                                </a>
-                            </div>
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/06.jpg" class="img-fluid">
-                                <p>Valparaíso</p>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/07.jpg" class="img-fluid">
-                                <p>Metropolitana</p>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/08.jpg" class="img-fluid">
-                                <p>O'Higgins</p>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- SLIDE 3 -->
-                <div class="carousel-item">
-                    <div class="row">
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/09.jpg" class="img-fluid">
-                                <p>Maule</p>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/10.jpg" class="img-fluid">
-                                <p>Ñuble</p>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/11.jpg" class="img-fluid">
-                                <p>Biobío</p>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/12.jpg" class="img-fluid">
-                                <p>La Araucanía</p>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- SLIDE 4 -->
-                <div class="carousel-item">
-                    <div class="row">
-
-                        <div class="col-md-3">
-                            <a href="#" class="card-region">
-                                <img src="assets/img/regiones/13.jpg" class="img-fluid">
-                                <p>Los Ríos</p>
-                            </a>
-                        </div>
-
-                                <div class="col-md-3">
-                                    <a href="#" class="card-region">
-                                        <img src="assets/img/regiones/14.jpg" class="img-fluid">
-                                        <p>Los Lagos</p>
-                                    </a>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <a href="#" class="card-region">
-                                        <img src="assets/img/regiones/15.jpg" class="img-fluid">
-                                        <p>Aysén</p>
-                                    </a>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <a href="#" class="card-region">
-                                        <img src="assets/img/regiones/16.jpg" class="img-fluid">
-                                        <p>Magallanes</p>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <main>
-        <div class="container" my-5>
-            <div class="row">
-                <!-- COLUMNA 1 (ASIDE) -->
-                <aside class="col-md-3">
-                    <h4>Sabías que:</h4>
-                    <h5>Chile un país de Terremotos</h5>
-                    <p> Chile es uno de los países más sísmicos del mundo debido a la subducción 
-                        de la placa de Nazca bajo la Sudamericana, lo que se traduce en miles de 
-                        sismos cada año, la gran mayoría de baja magnitud y casi imperceptibles 
-                        para la población. Según registros del Centro Sismológico Nacional, en un 
-                        año típico se detectan más de 6.000 a 7.000 eventos, aunque solo una fracción 
-                        menor es percibida. En cuanto a terremotos relevantes 
-                        (generalmente sobre magnitud 7), su frecuencia es mucho menor, pero han marcado 
-                        la historia del país: en 1960 ocurrió el terremoto de Valdivia (M 9,5), el más 
-                        grande registrado en el mundo; en 1985, el de la zona central (M 7,8); en 2010, 
-                        el terremoto del Maule (M 8,8); en 2014, el de Iquique (M 8,2); en 2015, el de 
-                        Illapel (M 8,3); y en 2016, el de Chiloé (M 7,6). Estos eventos reflejan que, 
-                        aunque los grandes terremotos no ocurren todos los años, Chile mantiene una 
-                        actividad sísmica constante, con registros anuales elevados que forman parte 
-                        de su dinámica geológica natural.
-                    </p>
-                    <h5>Chile el Desierto más Árido del Mundo</h5>
-                    <p>
-                        Chile alberga el desierto más seco del mundo, el Desierto de Atacama, ubicado en 
-                        el norte del país. Este lugar es tan árido que existen zonas donde no ha llovido 
-                        en décadas, e incluso siglos, lo que lo convierte en un entorno único en el 
-                        planeta. Sus cielos despejados, la casi nula humedad y la ausencia de contaminación 
-                        lumínica lo transforman en uno de los mejores lugares del mundo para la observación 
-                        astronómica. A pesar de sus condiciones extremas, el desierto de Atacama sorprende 
-                        con paisajes impresionantes, salares, volcanes y una biodiversidad adaptada a 
-                        sobrevivir en uno de los ambientes más inhóspitos de la Tierra.
-                    </p>
-                </aside>
-                <!-- COLUMNA 2 (REGIONES 8) -->
-                <div class="col-md-2">
-                    <a href="magallanes.html" class="region-card">
-                        <img src="assets/img/regiones/01.jpg">
-                        <span>Arica y Parinacota</span>
-                    </a>
-                    <a href="aysen.html" class="region-card">
-                        <img src="assets/img/regiones/03.jpg">
-                        <span>Antofagasta</span>
-                    </a>
-                    <a href="lagos.html" class="region-card">
-                        <img src="assets/img/regiones/05.jpg">
-                        <span>Coquimbo</span>
-                    </a>
-                    <a href="rios.html" class="region-card">
-                        <img src="assets/img/regiones/07.jpg">
-                        <span>Metropolitana</span>
-                    </a>
-                    <a href="araucania.html" class="region-card">
-                        <img src="assets/img/regiones/09.jpg">
-                        <span>Maule</span>
-                    </a>
-                    <a href="biobio.html" class="region-card">
-                        <img src="assets/img/regiones/11.jpg">
-                        <span>Biobío</span>
-                    </a>
-                    <a href="nuble.html" class="region-card">
-                        <img src="assets/img/regiones/13.jpg">
-                        <span>Los Ríos</span>
-                    </a>
-                    <a href="maule.html" class="region-card">
-                        <img src="assets/img/regiones/15.jpg">
-                        <span>Aysén del Gral. Carlos Ibañez del Campo</span>
-                    </a>
-                </div>
-                    <!-- COLUMNA 3 (MAPA CHILE) -->
-                    <div class="col-md-4 text-center">
-                        <h2> Chile Continental</h2>
-                        <img src="assets/img/regiones/00chile.jpg" class="img-fluid mapa-chile">
-                    </div>
-                    <!-- COLUMNA 4 (REGIONES 9–16 DESCENDENTE) -->
-                    <div class="col-md-2">
-                    <a href="ohiggins.html" class="region-card">
-                        <img src="assets/img/regiones/02.jpg">
-                        <span>Tarapacá</span>
-                    </a>
-                    <a href="metropolitana.html" class="region-card">
-                        <img src="assets/img/regiones/04.jpg">
-                        <span>Atacama</span>
-                    </a>
-                    <a href="valparaiso.html" class="region-card">
-                        <img src="assets/img/regiones/06.jpg">
-                        <span>Valparaíso</span>
-                    </a>
-                    <a href="coquimbo.html" class="region-card">
-                        <img src="assets/img/regiones/08.jpg">
-                        <span>Libertador Gral. Bdo. O'Higgins</span>
-                    </a>
-                    <a href="atacama.html" class="region-card">
-                        <img src="assets/img/regiones/10.jpg">
-                        <span>Ñuble</span>
-                    </a>
-                    <a href="antofagasta.html" class="region-card">
-                        <img src="assets/img/regiones/12.jpg">
-                        <span>La Araucanía</span>
-                    </a>
-                    <a href="tarapaca.html" class="region-card">
-                        <img src="assets/img/regiones/14.jpg">
-                        <span>Los Lagos</span>
-                    </a>
-                    <a href="arica.html" class="region-card">
-                        <img src="assets/img/regiones/16.jpg">
-                        <span>Magallanes y de la Antártica Chilena</span>
-                    </a>
-                </div>
-            </div>
+        <!-- Columna 3 -->
+        <div class="col-4 col-md-2">
+          <img
+            src="assets/img/icon_gif/icono2.gif"
+            id="icono2"
+            class="img-fluid icono"
+          />
         </div>
-        </main>
-    
-        <footer id="contacto" class="footer mt-5">
+      </div>
+    </header>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h5>Contacto</h5>
-                        <p class="nombre">Luz María Masafierro Molina</p>
-                        <p>+56950064444</p>
-                        <p>lulu.masafierro1@gmail.com</p>
-                    </div> 
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <!-- Título con un ícono-->
+        <a class="navbar-brand text-white" href="#">El Tiempo 🌤️</a>
 
-                    <div class="col-md-4">
-                        <!-- Botón subir -->
-                        <button id="btnTop" class="btn-subir">Subir</button>
-                    </div> 
+        <!-- Botón hamburguesa -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                    <div class="col-md-4">
-                        <!-- Redes sociales -->
-                        <div class="redes my-3">
-                            <a href="#"><i class="bi bi-facebook"></i></a>
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <a href="#"><i class="bi bi-twitter"></i></a>
-                        </div>      
-                    </div>        
+        <!-- Contenido -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- IZQUIERDA -->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="17yop.html">Nosotros</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                >Regiones</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="01.html">Arica y Parinacota</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="02.html">Tarapacá</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="03.html">Antofagasta</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="04.html">Atacama</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="05.html">Coquimbo</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="06.html">Valparaíso</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="07.html">Santiago</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="08.html"
+                    >Libertador General Bernardo O'Higgins</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="09.html">Maule</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="10.html">Ñuble</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="11.html">Biobío</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="12.html">La Araucanía</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="13.html">Los Ríos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="14.html">Los Lagos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="15.html"
+                    >Aysén del General Carlos Ibáñez del Campo</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="16.html"
+                    >Magallanes y de la Antártica Chilena</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- DERECHA -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link contacto-btn" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container my-5">
+        <div
+          id="carouselRegiones"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Indicadores (botones abajo) -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselRegiones"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselRegiones"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselRegiones"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselRegiones"
+              data-bs-slide-to="3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <!-- SLIDE 1 -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="01.html" class="card-region">
+                    <img src="assets/img/regiones/01.jpg" class="img-fluid" />
+                    <p>Arica y Parinacota</p>
+                  </a>
                 </div>
-            
+
+                <div class="col-md-3">
+                  <a href="02.html" class="card-region">
+                    <img src="assets/img/regiones/02.jpg" class="img-fluid" />
+                    <p>Tarapacá</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="03.html" class="card-region">
+                    <img src="assets/img/regiones/03.jpg" class="img-fluid" />
+                    <p>Antofagasta</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="04.html" class="card-region">
+                    <img src="assets/img/regiones/04.jpg" class="img-fluid" />
+                    <p>Atacama</p>
+                  </a>
+                </div>
+              </div>
             </div>
 
-        </footer>
+            <!-- SLIDE 2 -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="05.html" class="card-region">
+                    <img src="assets/img/regiones/05.jpg" class="img-fluid" />
+                    <p>Coquimbo</p>
+                  </a>
+                </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-        </script>
-    
-        <script src="assets/js/script.js"></script>  
+                <div class="col-md-3">
+                  <a href="06.html" class="card-region">
+                    <img src="assets/img/regiones/06.jpg" class="img-fluid" />
+                    <p>Valparaíso</p>
+                  </a>
+                </div>
 
-    
-    </body>
+                <div class="col-md-3">
+                  <a href="07.html" class="card-region">
+                    <img src="assets/img/regiones/07.jpg" class="img-fluid" />
+                    <p>Metropolitana</p>
+                  </a>
+                </div>
 
+                <div class="col-md-3">
+                  <a href="08.html" class="card-region">
+                    <img src="assets/img/regiones/08.jpg" class="img-fluid" />
+                    <p>O'Higgins</p>
+                  </a>
+                </div>
+              </div>
+            </div>
 
+            <!-- SLIDE 3 -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="09.html" class="card-region">
+                    <img src="assets/img/regiones/09.jpg" class="img-fluid" />
+                    <p>Maule</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="10.html" class="card-region">
+                    <img src="assets/img/regiones/10.jpg" class="img-fluid" />
+                    <p>Ñuble</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="11.html" class="card-region">
+                    <img src="assets/img/regiones/11.jpg" class="img-fluid" />
+                    <p>Biobío</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="12.html" class="card-region">
+                    <img src="assets/img/regiones/12.jpg" class="img-fluid" />
+                    <p>La Araucanía</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 4 -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="13.html" class="card-region">
+                    <img src="assets/img/regiones/13.jpg" class="img-fluid" />
+                    <p>Los Ríos</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="14.html" class="card-region">
+                    <img src="assets/img/regiones/14.jpg" class="img-fluid" />
+                    <p>Los Lagos</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="15.html" class="card-region">
+                    <img src="assets/img/regiones/15.jpg" class="img-fluid" />
+                    <p>Aysén</p>
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="16.html" class="card-region">
+                    <img src="assets/img/regiones/16.jpg" class="img-fluid" />
+                    <p>Magallanes</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="container" my-5>
+        <div class="row">
+          <!-- COLUMNA 1 (ASIDE) -->
+          <aside class="col-md-3">
+            <h4>Sabías que:</h4>
+            <h5>Chile un país de Terremotos</h5>
+            <p>
+              Chile es uno de los países más sísmicos del mundo debido a la
+              subducción de la placa de Nazca bajo la Sudamericana, lo que se
+              traduce en miles de sismos cada año, la gran mayoría de baja
+              magnitud y casi imperceptibles para la población. Según registros
+              del Centro Sismológico Nacional, en un año típico se detectan más
+              de 6.000 a 7.000 eventos, aunque solo una fracción menor es
+              percibida. En cuanto a terremotos relevantes (generalmente sobre
+              magnitud 7), su frecuencia es mucho menor, pero han marcado la
+              historia del país: en 1960 ocurrió el terremoto de Valdivia (M
+              9,5), el más grande registrado en el mundo; en 1985, el de la zona
+              central (M 7,8); en 2010, el terremoto del Maule (M 8,8); en 2014,
+              el de Iquique (M 8,2); en 2015, el de Illapel (M 8,3); y en 2016,
+              el de Chiloé (M 7,6). Estos eventos reflejan que, aunque los
+              grandes terremotos no ocurren todos los años, Chile mantiene una
+              actividad sísmica constante, con registros anuales elevados que
+              forman parte de su dinámica geológica natural.
+            </p>
+            <h5>Chile el Desierto más Árido del Mundo</h5>
+            <p>
+              Chile alberga el desierto más seco del mundo, el Desierto de
+              Atacama, ubicado en el norte del país. Este lugar es tan árido que
+              existen zonas donde no ha llovido en décadas, e incluso siglos, lo
+              que lo convierte en un entorno único en el planeta. Sus cielos
+              despejados, la casi nula humedad y la ausencia de contaminación
+              lumínica lo transforman en uno de los mejores lugares del mundo
+              para la observación astronómica. A pesar de sus condiciones
+              extremas, el desierto de Atacama sorprende con paisajes
+              impresionantes, salares, volcanes y una biodiversidad adaptada a
+              sobrevivir en uno de los ambientes más inhóspitos de la Tierra.
+            </p>
+          </aside>
+          <!-- COLUMNA 2 (REGIONES 8) -->
+          <div class="col-md-2">
+            <a href="01.html" class="region-card">
+              <img src="assets/img/regiones/01.jpg" />
+              <span>Arica y Parinacota</span>
+            </a>
+            <a href="03.html" class="region-card">
+              <img src="assets/img/regiones/03.jpg" />
+              <span>Antofagasta</span>
+            </a>
+            <a href="05.html" class="region-card">
+              <img src="assets/img/regiones/05.jpg" />
+              <span>Coquimbo</span>
+            </a>
+            <a href="07.html" class="region-card">
+              <img src="assets/img/regiones/07.jpg" />
+              <span>Metropolitana</span>
+            </a>
+            <a href="09.html" class="region-card">
+              <img src="assets/img/regiones/09.jpg" />
+              <span>Maule</span>
+            </a>
+            <a href="11.html" class="region-card">
+              <img src="assets/img/regiones/11.jpg" />
+              <span>Biobío</span>
+            </a>
+            <a href="13.html" class="region-card">
+              <img src="assets/img/regiones/13.jpg" />
+              <span>Los Ríos</span>
+            </a>
+            <a href="15.html" class="region-card">
+              <img src="assets/img/regiones/15.jpg" />
+              <span>Aysén del Gral. Carlos Ibañez del Campo</span>
+            </a>
+          </div>
+          <!-- COLUMNA 3 (MAPA CHILE) -->
+          <div class="col-md-4 text-center">
+            <h2>Chile Continental</h2>
+            <img
+              src="assets/img/regiones/00chile.jpg"
+              class="img-fluid mapa-chile"
+            />
+          </div>
+          <!-- COLUMNA 4 (REGIONES 9–16 DESCENDENTE) -->
+          <div class="col-md-2">
+            <a href="02.html" class="region-card">
+              <img src="assets/img/regiones/02.jpg" />
+              <span>Tarapacá</span>
+            </a>
+            <a href="04.html" class="region-card">
+              <img src="assets/img/regiones/04.jpg" />
+              <span>Atacama</span>
+            </a>
+            <a href="06.html" class="region-card">
+              <img src="assets/img/regiones/06.jpg" />
+              <span>Valparaíso</span>
+            </a>
+            <a href="08.html" class="region-card">
+              <img src="assets/img/regiones/08.jpg" />
+              <span>Libertador Gral. Bdo. O'Higgins</span>
+            </a>
+            <a href="10.html" class="region-card">
+              <img src="assets/img/regiones/10.jpg" />
+              <span>Ñuble</span>
+            </a>
+            <a href="12.html" class="region-card">
+              <img src="assets/img/regiones/12.jpg" />
+              <span>La Araucanía</span>
+            </a>
+            <a href="14.html" class="region-card">
+              <img src="assets/img/regiones/14.jpg" />
+              <span>Los Lagos</span>
+            </a>
+            <a href="16.html" class="region-card">
+              <img src="assets/img/regiones/16.jpg" />
+              <span>Magallanes y de la Antártica Chilena</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="contacto" class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Contacto</h5>
+            <p class="nombre">Luz María Masafierro Molina</p>
+            <p>+56950064444</p>
+            <p>lulu.masafierro1@gmail.com</p>
+          </div>
+
+          <div class="col-md-3">
+            <!-- Botón subir -->
+            <button id="btnTop" class="btn-subir">Subir</button>
+          </div>
+
+          <div class="col-md-3">
+            <!-- Redes sociales -->
+            <div class="redes my-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
